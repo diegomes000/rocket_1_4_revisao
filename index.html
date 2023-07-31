@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Rocketseat Explorer</title>
+</head>
+<body>
+    <div class="page">
+
+        <div class="top">
+            <header>
+                <div>
+                    <img src="assets/main_img.png" alt="cosmonault in a suit floating among planets">
+                </div>
+                <div id="texts">
+                    <h1>Explore infinitely</h1>
+                    <p>Because learning is continuous</p>
+                    <div class="arrow">
+                        <a href="#anchor"><img src="assets/arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+        </header>
+    </div>
+    
+    <div class="middle">
+        <div class="card">
+            <img class="img-middle"  src="assets/planet_a.png" alt="planet">
+            <h1>Don't stop</h1>
+            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+        </div>
+    
+        <div class="card">
+            <img class="img-middle"  src="assets/planet_b.png" alt="planet">
+            <h1>Rewind</h1>
+            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+        </div>
+    
+        <div class="card">
+            <img class="img-middle"  src="assets/planet_c.png" alt="planet">
+            <h1>At your pace</h1>
+            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+        </div>
+    </div>
+    
+    <div class="bottom" >
+        <div>
+
+            <form id="form" method="post">
+                <fieldset class="fieldset-wrapper" id="anchor">
+                <legend>Get in touch</legend>
+                <div class="fieldset-wrapper" id="name">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Your name"/>
+                </div>
+                <div class="fieldset-wrapper" id="email">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="E-mail"/>
+                </div>
+                <div class="fieldset-wrapper">
+                    <textarea name="mgs" id="msg" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+          
+                    <input id="button" type="submit" value="Send message" form="form" />
+                </div>
+            </fieldset>
+        </form>
+         </div>
+        <div class="bk-img"></div>
+    </div>
+        
+        <footer>
+            <p>© 2023 - Rocketseat Explorer</p>
+        </footer>
+    
+    </div>
+    </body>
+    </html>
